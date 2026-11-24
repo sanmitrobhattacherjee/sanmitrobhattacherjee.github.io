@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanmitro Bhattacherjee | Research Portfolio</title>
+  <meta name="description" content="Research portfolio of Sanmitro Bhattacherjee — protein biochemistry, structural biology and biomolecular interactions." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">SB<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cv" id="navCv" href="#" download>CV ↗</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" id="heroEyebrow"></p>
+        <h1 id="heroName"></h1>
+        <p class="hero-role" id="heroRole"></p>
+        <p class="hero-summary" id="heroSummary"></p>
+        <div class="hero-actions">
+          <a class="button primary" href="#research">Explore research</a>
+          <a class="button ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-orbit reveal">
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="orbit orbit-3"></div>
+        <div class="molecule">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="orbit-label">STRUCTURE<br/>↕<br/>FUNCTION</div>
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div>
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2 id="aboutTitle"></h2>
+      </div>
+      <div class="section-copy">
+        <p id="aboutText"></p>
+        <div class="focus-row" id="focusRow"></div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">02 / RESEARCH</p>
+          <h2>Questions I like to investigate.</h2>
+        </div>
+        <p class="section-intro">From recombinant proteins to molecular models, I am interested in connecting biochemical observations to mechanism.</p>
+      </div>
+      <div class="research-grid" id="researchGrid"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">03 / EXPERIENCE</p>
+          <h2>Research, translated into practice.</h2>
+        </div>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">04 / PROJECTS</p>
+          <h2>Selected work.</h2>
+        </div>
+        <p class="section-intro">A growing collection of experimental and computational projects.</p>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">05 / TOOLKIT</p>
+          <h2>Techniques & tools.</h2>
+        </div>
+      </div>
+      <div class="skills-wrap" id="skillsWrap"></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2 id="contactHeading"></h2>
+      </div>
+      <div class="contact-card">
+        <p id="contactText"></p>
+        <div class="contact-links" id="contactLinks"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span id="footerName"></span>
+    <span>Research portfolio · <span id="year"></span></span>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
